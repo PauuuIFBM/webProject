@@ -1,0 +1,186 @@
+address{
+    font-size:80%;
+    margin:0px;
+    color:#85583f;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+    color:black;
+    background-color: #eff1e4;
+    
+}
+
+footer{
+    background-color: #97e1e7;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+a{
+    color:#663300;
+    font-weight: bold;
+}
+
+.bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
+    content: none; 
+}
+.bc-icons-2 .breadcrumb-item.active {
+   font-weight: bold;
+}
+
+.btn-feedback{
+   
+    margin-top: 40px;
+}
+
+.breadcrumb-item.active {
+    color: #000000;
+}
+
+.breadcrumb{
+    background-color: #77dae3;
+}
+
+.foto-img{   
+    background-color:blueviolet;
+    min-height:40px;
+    border: 5px;
+    object-fit: cover; /*se adapta si estirar por ningun lado*/
+    border-color: crimson;
+}
+
+.gallery{
+    display: flex;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #2ebdbd ;
+    color:floralwhite;
+}
+
+.navbar-dark {
+    background-color: #537c8e;
+}
+
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 10px 15px 20px 15px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+
+/*imgs carousel*/
+.carousel-item{
+    border-width: 5px;
+}
+
+@media only screen and (min-width: 768px){
+
+    .img-carousel{
+        object-fit: fill;
+        height: 600px;
+        margin: 3%;
+        max-width: 90%;
+    }
+}
+
+.img-carousel{
+    object-fit: fill;
+    height: 350px;
+    margin: 3%;
+    max-width: 90%;
+}
+/**/
+
+.btn-feedback{
+    margin-top: 50px;
+}
+
+
+/*Acordion*/
+.ui-accordion .ui-accordion-header {
+    
+    padding-right: 49%;
+    background-color: #cc6699;
+    color: white;
+}
+/*FIN acordion*/
+
+/*my mycanvas*/
+.nombre-canvas{
+    margin-top: -50px;
+    height: 40px;
+}
+
+.demostracion-canvas img{
+    border-width: 2px;
+    border-color: #000000;
+    image:center;
+    margin-top: 2px;
+    max-width: 299px;
+    max-height: 208px;
+}
+
+.precio-canvas{
+    margin-top: 2px;
+    height: 40px;    
+}
+
+
+.bbb{
+    left: 0;
+}
+
+.tilePadWide {
+    padding: 40px;
+    letter-spacing: 10px;
+}
+
+.text-studies h4{
+    border-left-color: #5bc0de;
+}
+
+.text-objetives h4{
+    border-left-color: #65e41b;
+}
+
+.ql-toolbar.ql-snow{
+    border-color: #17a2b8 !important; /*si no no cambia de color*/
+}
+
+.bd-callout{
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 1.25rem;
+    border: 1px solid rgb(255, 195, 242);
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+/*FIN mmycanvas*/
+
+/*Gallry*/
+.foto-gallery img{ 
+   
+    
+}
+/*FIN Gallery*/
+
+#editor{
+    background-color: #eff1e4;
+}
+
+#map iframe{
+    height: 400px;
+    width: 100%;
+    
+}
